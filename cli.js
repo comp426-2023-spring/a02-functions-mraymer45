@@ -48,7 +48,7 @@ if (argv['e'] != null) { longitude = argv['e']; }
 if (argv['w'] != null) { longitude = -argv['w']; }
 
 if (!(longitude && latitude)) {
-    console.log(`Latitude and longitude must be input.`)
+    console.log(`Latitude must be in range`)
     process.exit(0);
 }
 
